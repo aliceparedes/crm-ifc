@@ -1,0 +1,16 @@
+[
+  {"mes":"2026-05","categoria":"Tratamientos","monto":8560,"ordenes":28,"nombre":"Mesoterapia Dutasteride o Minoxidil","doc":"Mesoterapia Dutasteride o Minoxidil","tipoDoc":"Tratamientos"},
+  {"mes":"2026-05","categoria":"Medicamentos","monto":640,"ordenes":2,"nombre":"PQ 2UND - Minoxidil 5MG/Dutasteride 0.5MG","doc":"PQ 2UND - Minoxidil 5MG/Dutasteride 0.5MG","tipoDoc":"Medicamentos"},
+  {"mes":"2026-05","categoria":"Servicios","monto":64,"ordenes":5,"nombre":"Envio","doc":"Envio","tipoDoc":"Servicios"},
+  {"mes":"2026-05","categoria":"Medicamentos","monto":403,"ordenes":4,"nombre":"Minoxidil 2MG 5%/Finasteride 0.5MG 1%/Solución Acuosa GOTERO 60ML","doc":"Minoxidil 2MG 5%/Finasteride 0.5MG 1%/Solución Acuosa GOTERO 60ML","tipoDoc":"Medicamentos"},
+  {"mes":"2026-05","categoria":"Medicamentos","monto":2647,"ordenes":15,"nombre":"Finasteride 5MG, Minoxidil 1MG X 30 CAPS","doc":"Finasteride 5MG, Minoxidil 1MG X 30 CAPS","tipoDoc":"Medicamentos"},
+  {"mes":"2026-05","categoria":"Medicamentos","monto":1217,"ordenes":7,"nombre":"Minoxidil 5MG/Dutasteride 0.5MG","doc":"Minoxidil 5MG/Dutasteride 0.5MG","tipoDoc":"Medicamentos"},
+  {"mes":"2026-05","categoria":"Medicamentos","monto":1911,"ordenes":18,"nombre":"Minoxidil 5%/Finasteride 0.5%/Solución Acuosa","doc":"Minoxidil 5%/Finasteride 0.5%/Solución Acuosa","tipoDoc":"Medicamentos"},
+  {"mes":"2026-05","categoria":"Medicamentos","monto":660,"ordenes":4,"nombre":"Minoxidil 5MG/Finasteride 1.2MG","doc":"Minoxidil 5MG/Finasteride 1.2MG","tipoDoc":"Medicamentos"},
+  {"mes":"2026-05","categoria":"Medicamentos","monto":537,"ordenes":3,"nombre":"Minoxidil 2.5MG/Dutasteride 0.5MG","doc":"Minoxidil 2.5MG/Dutasteride 0.5MG","tipoDoc":"Medicamentos"},
+  {"mes":"2026-05","categoria":"Medicamentos","monto":481,"ordenes":3,"nombre":"PILOPEPTAN WOMAN ANTI HAIR - SHAMPU","doc":"PILOPEPTAN WOMAN ANTI HAIR - SHAMPU","tipoDoc":"Medicamentos"},
+  {"mes":"2026-05","categoria":"Consultas","monto":470,"ordenes":8,"nombre":"Consulta Medica - Super Promocion","doc":"Consulta Medica - Super Promocion","tipoDoc":"Consultas"},
+  {"mes":"2026-05","categoria":"Consultas","monto":30,"ordenes":1,"nombre":"Anticipo - Consulta","doc":"Anticipo - Consulta","tipoDoc":"Consultas"},
+  {"mes":"2026-05","categoria":"Medicamentos","monto":1077,"ordenes":6,"nombre":"Finasteride 5MG, Minoxidil 0.5MG X 30 CAPS","doc":"Finasteride 5MG, Minoxidil 0.5MG X 30 CAPS","tipoDoc":"Medicamentos"},
+  {"mes":"2026-05","categoria":"Medicamentos","monto":179,"ordenes":1,"nombre":"PILOPEPTAN CHAMPÚ ANTICAÍDA 250ML","doc":"PILOPEPTAN CHAMPÚ ANTICAÍDA 250ML","tipoDoc":"Medicamentos"}
+]
