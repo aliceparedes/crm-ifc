@@ -2,7 +2,11 @@ import { supabaseIfc } from "@/lib/supabase-ifc";
 import { Resend } from "resend";
 import { NextRequest, NextResponse } from "next/server";
 
-const resend = new Resend(process.env.RESEND_API_KEY);
+let _resend: Resend | null = null;
+function getResend() {
+  if (!_resend) _resend = new Resend(process.env.RESEND_API_KEY);
+  return _resend;
+}
 
 const ENCARGADA_EMAILS: Record<string, string> = {
   Lilian: "lilianparedes26.v@gmail.com",
@@ -96,7 +100,7 @@ export async function POST(req: NextRequest) {
           ${buildTable(sorted, false)}
         </div>
       </div>`;
-      await resend.emails.send({
+      await getResend().emails.send({
         from: "IFC Seguimiento <onboarding@resend.dev>",
         to: email,
         subject: `IFC · ${list.length} cliente(s) para llamar hoy`,
@@ -109,7 +113,7 @@ export async function POST(req: NextRequest) {
       const sorted = [...clients].sort((a: Client, b: Client) =>
         (a.responsable ?? "").localeCompare(b.responsable ?? "")
       );
-      await resend.emails.send({
+      await getResend().emails.send({
         from: "IFC Seguimiento <onboarding@resend.dev>",
         to: adminEmail,
         subject: `IFC · Resumen diario — ${clients.length} cliente(s) hoy`,
